@@ -1,0 +1,24 @@
+# Maintenance Data Validation & Error Report System
+# Python 3.13
+
+# Data processing
+pandas>=2.2
+
+# Excel I/O
+openpyxl>=3.1      # .xlsx read/write
+xlrd>=2.0          # legacy .xls read
+
+# Domain models / serialization
+pydantic>=2.6
+
+# Persistence (5단계)
+SQLAlchemy>=2.0
+
+# UI (3단계)
+streamlit>=1.40
+
+# Config / secrets
+python-dotenv>=1.0
+
+# Testing
+pytest>=8.0

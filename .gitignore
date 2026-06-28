@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+venv627/
+venv/
+.venv/
+
+# Secrets / config
+.env
+
+# Generated data (DB, reports)
+data/
+!data/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
